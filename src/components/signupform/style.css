@@ -1,0 +1,70 @@
+.google{
+    width: 20px;
+    height: 20px;
+}
+
+.sec{
+    background: #FFFFFF;
+    padding: 50px;
+    height: 100vh;
+}
+
+.back{
+    display: flex;
+    color: #8692A6;
+    gap: 6px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 100%;
+    gap: 30px;
+}
+
+.formfa{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    padding: 30px;
+    gap: 20px;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inp{
+    width: 426px;
+    height: 64px;
+    border: 1px solid #8692A6;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.regacc{
+    width: 426px;
+    height: 64px;
+    background: #1565D8;
+    border-radius: 6px;
+}
+
+.loginbutt{
+    width: 426px;
+    height: 64px;
+    background: #ffffff;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 200px 0px 30px;
+
+    
+}
+
+.lo{
+    align-self: center;
+    margin-right: 130px
+}
