@@ -30,7 +30,7 @@ export default class Games extends Component {
         </div>
         <div className="contain">
           <div className="wel-back">
-            <div>
+            <div className="we">
               <p>welcome back</p>
               <p>jenny</p>
             </div>
@@ -60,22 +60,38 @@ export default class Games extends Component {
             />
           </div>
           <div className="lastcon">
-            <div>
+            <div className="played">
               <p>Last played</p>
               <div className="last">
-                <img src="./imgs/Property 1=Default (5).png" alt="" />
+                <img
+                  className="pl"
+                  src="./imgs/Property 1=Default (5).png"
+                  alt=""
+                />
                 <p>Hogwarts Legacy 50%</p>
               </div>
               <div className="last">
-                <img src="./imgs/Property 1=Default (5).png" alt="" />
+                <img
+                  className="pl"
+                  src="./imgs/Property 1=Default (5).png"
+                  alt=""
+                />
                 <p>Hogwarts Legacy 50%</p>
               </div>
               <div className="last">
-                <img src="./imgs/Property 1=Default (5).png" alt="" />
+                <img
+                  className="pl"
+                  src="./imgs/Property 1=Default (5).png"
+                  alt=""
+                />
                 <p>Hogwarts Legacy 50%</p>
               </div>
               <div className="last">
-                <img src="./imgs/Property 1=Default (5).png" alt="" />
+                <img
+                  className="pl"
+                  src="./imgs/Property 1=Default (5).png"
+                  alt=""
+                />
                 <p>Hogwarts Legacy 50%</p>
               </div>
             </div>

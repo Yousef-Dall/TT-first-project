@@ -36,12 +36,12 @@
     width: fit-content;
     justify-content: space-between;
     height: 100vh;
-    padding: 30px 10px 30px 0px;
+    padding: 30px 15px 30px 15px;
     line-height: 1px;
 }
 .icon{
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
 }
 .themeicons{
     width: 40px;
@@ -65,7 +65,7 @@
     display: flex;
     flex-direction: row;
     height: 10vh;
-    padding-left: 80vw;
+    padding-left:  78.5vw;
 }
 
 .newgames{
@@ -77,9 +77,7 @@
     display: flex;
     flex-direction: row;
     overflow-y:scroll;
-    /* background-color: red; */
-    width: 90vw;
-    /* overflow: hidden; */
+    width: 92vw;
 }
 
 ::-webkit-scrollbar {
@@ -87,19 +85,30 @@
 }
 
 .game-img{
-    height: calc(351*0.75px) ;
-    width: calc(636*0.75px); 
+    height: calc(351*0.7px) ;
+    width: calc(636*0.7px); 
 }
 
 .last{
     display: flex;
     height: 70px;
+    background-color: #FBFBFB;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+align-items: center;
+
+
+/* align-items: center; */
+}
+.pl{
+    height: 100px;
+    padding-top: 20px;
 }
 
 .lastcon{
     display: flex;
     gap: 120px;
-    height: 45vh;
+    height: 44vh;
 }
 
 .mix{
@@ -115,7 +124,7 @@
     position: absolute;
     z-index: 100;
     right: 590px;
-    bottom: 235px;
+    bottom: 210px;
     height: 120px;
 }
 
@@ -123,7 +132,6 @@
     position: absolute;
     z-index: 120;
     right: 600px;
-
     height: 100px
 }
 
@@ -134,12 +142,24 @@
 
 .contain{
     height: 100vh;
-    padding-left: 30px;
-    width: 90vw;
+    padding: 30px 0px 0px 30px;
+    width: 95vw;
 }
 
 
 
 .kl{
     height: 35vh;
+}
+
+.we{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.played{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
