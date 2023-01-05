@@ -1,0 +1,29 @@
+.qq{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    align-items: baseline;
+}
+
+.mark{
+    font-size: 96px;
+    font-family: 'Gayathri';
+    color: #00DAF7;
+    display: inline-block;
+    height: 50px;
+}
+
+blockquote{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-size: 2rem;
+}
+blockquote{
+    font-size: 20px;
+}
+
+.nn{
+    width: 70%;
+}

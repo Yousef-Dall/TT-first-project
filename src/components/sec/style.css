@@ -1,0 +1,36 @@
+.sms{
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.secc{
+    padding: 140px 100px 100px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60vw;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.regacc {
+    width: 426px;
+    height: 64px;
+    background: #1565D8;
+    border-radius: 6px;
+}
+
+.inp {
+    width: 426px;
+    height: 64px;
+    border: 1px solid #8692A6;
+    border-radius: 6px;
+    padding-left: 10px;
+}
